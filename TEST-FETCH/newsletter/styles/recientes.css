@@ -1,0 +1,17 @@
+.recientes {
+  width: 80%; /* Ajusta esto según el ancho de tu contenedor visible */
+  overflow-x: auto; /* Habilita el scroll horizontal */
+  overflow-y: hidden; /* Habilita el scroll horizontal */
+}
+
+.recientes__container {
+  width: 2000px; /* Ancho específico del contenedor interno */
+  display: flex;
+  flex-wrap: nowrap; /* No permitir que los elementos se envuelvan */
+  gap: 1rem; /* Espacio entre los elementos */
+}
+
+.recientes {
+  scrollbar-width: thin; /* Ancho del scrollbar */
+  scrollbar-color: #888 #f0f0f0; /* Color del pulgar y de la pista */
+}

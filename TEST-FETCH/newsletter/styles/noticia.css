@@ -1,0 +1,17 @@
+.noticia {
+  width: 400px;
+  height: 250px;
+  position: relative;
+}
+
+.noticia__img {
+  width: 100%;
+  height: 100%;
+}
+
+.noticia__info {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
